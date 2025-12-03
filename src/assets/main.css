@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* --- Fontes Locais --- */
+@font-face {
+  font-family: "Sec";
+  src: url("@/assets/Fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Main";
+  src: url("@/assets/Fonts/BROTHER Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SecBold";
+  src: url("@/assets/Fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+/* --- Classes Utilitárias Custom --- */
+.text-sec {
+  font-family: "Sec", sans-serif;
+}
+
+.text-main {
+  font-family: "Main";
+}
+
+.text-secbold {
+  font-family: "SecBold", sans-serif;
+}
